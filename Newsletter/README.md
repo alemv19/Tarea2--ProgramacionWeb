@@ -15,7 +15,6 @@ Desarrolla una página web usando HTML y CSS que permita a los usuarios suscribi
 ## 🚀 Tecnologías utilizadas
 - HTML  
 - CSS  
-
 ---
 
 ## 🔗 Enlace al proyecto
