@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, 'Segoe UI', Geneva, sans-serif;
+}
+
+body {
+    background-color: #f5f6f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 1350px; /* Desktop */
+    padding: 20px;
+}
+
+.icon {
+    width: 60px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.descripcion {
+    color: #6b7280;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.descripcion span {
+    display: block;
+}
+
+.cuadro {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 
+        0px 20px 30px rgba(0, 0, 0, 0.03),
+        0px 8px 12px rgba(0, 0, 0, 0.08);
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 20px;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+}
+
+input:focus {
+    border-color: #4f46e5;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3b5bdb;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #2f4acb;
+}
+
+.mensaje {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .descripcion {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 412px) {
+    .container {
+        max-width: 412px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .descripcion {
+        font-size: 14px;
+        max-width: 350px;
+    }
+    .cuadro {
+        padding: 20px;
+    }
+    input,
+    button {
+        font-size: 15px;
+        padding: 14px;
+    }
+}
