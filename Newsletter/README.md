@@ -18,7 +18,7 @@ Desarrolla una página web usando HTML y CSS que permita a los usuarios suscribi
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: [Pega aquí tu enlace]  
+Repositorio en GitHub: https://github.com/alemv19/Programacion-Web
 Deploy: [Pega aquí el deploy de GitHub Pages]
 ---
 
